@@ -17,30 +17,30 @@
             <div id="editor">
 var img1 = image("https://i.imgur.com/G5pfP.jpg");
 img1.start(0);
-img1.stop(2);
+img1.stop(12);
 
-// var img2 = image("https://i.imgur.com/zEuiv4n.jpg");
-// img2.start(0);
-// img2.stop(12);
+var img2 = image("https://i.imgur.com/zEuiv4n.jpg");
+img2.start(0);
+img2.stop(12);
 
-// var tra = transition(DREAMFADE);
-// tra.transition(3,4, 0.0, 1.0);
-// tra.transition(7,8, 1.0, 0.0);
-// tra.transition(10,11, 0.0, 1.0);
+var tra = transition(DREAMFADE);
+tra.transition(3,4, 0.0, 1.0);
+tra.transition(7,8, 1.0, 0.0);
+tra.transition(10,11, 0.0, 1.0);
 
-// img1.connect(tra);
-// img2.connect(tra);
+img1.connect(tra);
+img2.connect(tra);
 
 
-// var vid1 = video("./assets/introductions-rant.mp4", 3);
-// vid1.start(0);
-// vid1.stop(12);
+var vid1 = video("./assets/introductions-rant.mp4", 3);
+vid1.start(0);
+vid1.stop(12);
 
-// var thr1 = effect(THRESHOLD);
-// vid1.connect(thr1);
+var thr1 = effect(THRESHOLD);
+vid1.connect(thr1);
 
-// var stat = effect(STATIC);
-// thr1.connect(stat);
+var stat = effect(STATIC);
+thr1.connect(stat);
 
 
 // var vid2 = video("./assets/zebra.mp4", 3);
@@ -60,19 +60,19 @@ img1.stop(2);
 // com.connect(e);
 
 
-// var vid4 = video("./assets/introductions-rant.mp4", 13);
-// vid4.start(0);
-// vid4.stop(12);
+var vid4 = video("./assets/introductions-rant.mp4", 13);
+vid4.start(0);
+vid4.stop(12);
 
-// var thr4 = effect(THRESHOLD);
-// vid4.connect(thr4);
+var thr4 = effect(THRESHOLD);
+vid4.connect(thr4);
 
-// var vid5 = video("./assets/introductions-rant.mp4", 23);
-// vid5.start(0);
-// vid5.stop(12);
+var vid5 = video("./assets/introductions-rant.mp4", 23);
+vid5.start(0);
+vid5.stop(12);
 
-// var thr5 = effect(THRESHOLD);
-// vid5.connect(thr5);
+var thr5 = effect(THRESHOLD);
+vid5.connect(thr5);
 
 
 </div>
