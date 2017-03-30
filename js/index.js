@@ -5,11 +5,11 @@
 
  window.onload = function(){
     let editor = ace.edit("editor");
-    // editor.setTheme("ace/theme/monokai");
+    editor.setTheme("ace/theme/monokai");
     editor.getSession().setMode("ace/mode/javascript");
     console.log(document.getElementsByClassName("ace_scroller")[0].style);
 
-    console.log(document.getElementById("editor").style.backgroundColor = "rgba(255, 255, 255, 0.1)");
+    console.log(document.getElementById("editor").style.backgroundColor = "rgba(255, 255, 255, 0.0)");
     let canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
